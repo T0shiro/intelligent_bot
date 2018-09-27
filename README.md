@@ -25,5 +25,5 @@ The answer is not only yes or no, but it can construct the full answer.
 *Question* : Are you happy ?  
 *Answer* : Yes, I am happy *OR* No, I am not happy
 
-##Package
+## Package
 The package for that functionality is ``question_answer``.
