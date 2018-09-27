@@ -10,7 +10,7 @@ GARDAIRE Loïc
 Using a dictionnary of words, the bot can find if your sentence is positive or negative.
 
 ### Package
-The package for that functionality is ``parserPN``.
+The package for this functionality is ``parserPN``.
 
 ## Second aspect : Answer to questions
 
@@ -26,4 +26,4 @@ The answer is not only yes or no, but it can construct the full answer.
 *Answer* : Yes, I am happy *OR* No, I am not happy
 
 ## Package
-The package for that functionality is ``question_answer``.
+The package for this functionality is ``question_answer``.

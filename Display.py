@@ -1,10 +1,11 @@
 from parserPN import Parser
+from question_answer import Parser_question
 
 
 def main():
     while True:
         input_sentence = input("> ").lower().split()
-        Parser.parse_sentence(input_sentence)
+        Parser_question.parse_sentence(input_sentence)
 
 
 if __name__ == '__main__':

@@ -1,0 +1,7 @@
+who
+when
+what
+why
+which
+where
+how
