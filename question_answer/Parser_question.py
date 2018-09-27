@@ -1,5 +1,7 @@
-def parse_question_words():
-    question_words_file = open("question_answer/question-words.txt", "r")
+import random
+
+def parse_YNquestion_words():
+    question_words_file = open("question_answer/YNquestion-words.txt", "r")
     content = question_words_file.read().split("\n")
     question_words_file.close()
     return content
@@ -12,24 +14,32 @@ def parse_pronouns():
     return content
 
 
-question_words = parse_question_words()
+question_words = parse_YNquestion_words()
 pronouns = parse_pronouns()
 
 
 def parse_sentence(input_sentence):
     if input_sentence[-1] == '?':
-        if input_sentence[0] not in question_words:
-            subject = ""
+        if input_sentence[0] in question_words:
+            action = input_sentence[0]
+            prob = random.random()
+            if prob > 0.5:
+                answer = "No, "
+            else:
+                answer = "Yes, "
             for i in range(len(input_sentence)-1):
                 current_word = input_sentence[i]
                 if current_word in pronouns:
                     if current_word == "i":
-                        subject = "you"
+                        answer += "you "
                     elif current_word == "you":
-                        subject = "I"
+                        answer += "I "
                     else:
-                        subject = current_word
-            print(subject)
+                        answer = current_word
+            answer += action
+            if prob > 0.5:
+                answer += " not"
+            print(answer)
         else:
             return "It's not a yes/no question, I have no answer"
 
