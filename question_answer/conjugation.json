@@ -1,0 +1,95 @@
+{
+  "present": {
+    "am": "be",
+    "are": "be",
+    "is": "be",
+    "do": "do",
+    "does": "do",
+    "have": "have",
+    "has": "have"
+  },
+  "past": {
+    "was": "be",
+    "were": "be",
+    "did": "do",
+    "had": "have"
+  },
+  "be": [
+    [
+      "was",
+      "am"
+    ],
+    [
+      "were",
+      "are"
+    ],
+    [
+      "was",
+      "is"
+    ],
+    [
+      "were",
+      "are"
+    ],
+    [
+      "were",
+      "are"
+    ],
+    [
+      "were",
+      "are"
+    ]
+  ],
+  "do": [
+    [
+      "did",
+      "do"
+    ],
+    [
+      "did",
+      "do"
+    ],
+    [
+      "did",
+      "does"
+    ],
+    [
+      "did",
+      "do"
+    ],
+    [
+      "did",
+      "do"
+    ],
+    [
+      "did",
+      "do"
+    ]
+  ],
+  "have": [
+    [
+      "had",
+      "have"
+    ],
+    [
+      "had",
+      "have"
+    ],
+    [
+      "had",
+      "has"
+    ],
+    [
+      "had",
+      "have"
+    ],
+    [
+      "had",
+      "have"
+    ],
+    [
+      "had",
+      "have"
+    ]
+  ]
+}

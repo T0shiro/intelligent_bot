@@ -14,8 +14,6 @@ The package for this functionality is ``parserPN``.
 
 ## Second aspect : Answer to questions
 
-NOT IMPLEMENTED YET
-
 ### Description
 For now only, yes or no question  
 The bot can analyze that you are asking something and answer randomly yes or no.  
